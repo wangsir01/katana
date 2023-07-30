@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	cfgFile string
+	//cfgFile string
 	Options = &types.Options{}
 )
 
