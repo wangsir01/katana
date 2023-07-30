@@ -9,8 +9,8 @@ import (
 	"github.com/projectdiscovery/katana/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
-	"go.uber.org/multierr"
 	updateutils "github.com/projectdiscovery/utils/update"
+	"go.uber.org/multierr"
 )
 
 // Runner creates the required resources for crawling
@@ -25,7 +25,7 @@ type Runner struct {
 // New returns a new crawl runner structure
 func New(options *types.Options) (*Runner, error) {
 	configureOutput(options)
-	showBanner()
+	//showBanner()
 
 	if options.Version {
 		gologger.Info().Msgf("Current version: %s", version)

@@ -108,7 +108,7 @@ func (s *Shared) Output(navigationRequest *navigation.Request, navigationRespons
 		Error:     errData,
 	}
 
-	_ = s.Options.OutputWriter.Write(result)
+	//_ = s.Options.OutputWriter.Write(result)
 
 	if s.Options.Options.OnResult != nil {
 		s.Options.Options.OnResult(*result)
