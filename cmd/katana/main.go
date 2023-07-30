@@ -1,4 +1,4 @@
-package main
+package Test
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ var (
 	options = &types.Options{}
 )
 
-func main() {
+func Run() {
 	flagSet, err := readFlags()
 	if err != nil {
 		gologger.Fatal().Msgf("Could not read flags: %s\n", err)
