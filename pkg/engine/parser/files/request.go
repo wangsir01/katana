@@ -1,8 +1,8 @@
 package files
 
 import (
-	"github.com/projectdiscovery/katana/pkg/navigation"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/wangsir01/katana/pkg/navigation"
 )
 
 type visitFunc func(URL string) ([]*navigation.Request, error)

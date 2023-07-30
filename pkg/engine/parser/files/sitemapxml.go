@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/projectdiscovery/katana/pkg/navigation"
-	"github.com/projectdiscovery/katana/pkg/utils"
 	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/wangsir01/katana/pkg/navigation"
+	"github.com/wangsir01/katana/pkg/utils"
 )
 
 type sitemapXmlCrawler struct {

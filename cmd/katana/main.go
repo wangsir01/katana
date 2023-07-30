@@ -1,4 +1,4 @@
-package main
+package Test
 
 import (
 	"fmt"
@@ -10,10 +10,10 @@ import (
 
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/katana/internal/runner"
-	"github.com/projectdiscovery/katana/pkg/output"
-	"github.com/projectdiscovery/katana/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/wangsir01/katana/internal/runner"
+	"github.com/wangsir01/katana/pkg/output"
+	"github.com/wangsir01/katana/pkg/types"
 )
 
 var (

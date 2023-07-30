@@ -10,10 +10,10 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/formatter"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/katana/pkg/types"
-	"github.com/projectdiscovery/katana/pkg/utils"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
+	"github.com/wangsir01/katana/pkg/types"
+	"github.com/wangsir01/katana/pkg/utils"
 	"gopkg.in/yaml.v3"
 )
 

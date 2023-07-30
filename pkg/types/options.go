@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/katana/pkg/output"
+	"github.com/wangsir01/katana/pkg/output"
 )
 
 // OnResultCallback (output.Result)

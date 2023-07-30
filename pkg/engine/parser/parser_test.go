@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/projectdiscovery/katana/pkg/navigation"
-	"github.com/projectdiscovery/katana/pkg/output"
 	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/stretchr/testify/require"
+	"github.com/wangsir01/katana/pkg/navigation"
+	"github.com/wangsir01/katana/pkg/output"
 )
 
 func TestHeaderParsers(t *testing.T) {

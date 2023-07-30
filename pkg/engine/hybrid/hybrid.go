@@ -8,12 +8,12 @@ import (
 	"github.com/go-rod/rod/lib/launcher"
 	"github.com/go-rod/rod/lib/launcher/flags"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/katana/pkg/engine/common"
-	"github.com/projectdiscovery/katana/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 	urlutil "github.com/projectdiscovery/utils/url"
 	ps "github.com/shirou/gopsutil/v3/process"
+	"github.com/wangsir01/katana/pkg/engine/common"
+	"github.com/wangsir01/katana/pkg/types"
 	"go.uber.org/multierr"
 )
 

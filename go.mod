@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/katana
+module github.com/wangsir01/katana
 
 go 1.19
 
@@ -119,4 +119,4 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/projectdiscovery/katana => github.com/wangsir01/katana v0.0.0-20230703194954-1a9d1ebd6045
+replace github.com/wangsir01/katana => github.com/wangsir01/katana v0.0.0-20230703194954-1a9d1ebd6045

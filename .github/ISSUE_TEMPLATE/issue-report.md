@@ -7,7 +7,7 @@ labels: 'Type: Bug'
 
 <!-- 
 1. Please search to see if an issue already exists for the bug you encountered.
-2. For support requests, FAQs or "How to" questions, please use the GitHub Discussions section instead - https://github.com/projectdiscovery/katana/discussions or
+2. For support requests, FAQs or "How to" questions, please use the GitHub Discussions section instead - https://github.com/wangsir01/katana/discussions or
 3. Join our discord server at https://discord.gg/projectdiscovery and post the question on the #katana channel.
 -->
 
@@ -16,7 +16,7 @@ labels: 'Type: Bug'
 ### katana version:
 <!-- You can find current version of katana with "katana -version" -->
 <!-- We only accept issues that are reproducible on the latest version of katana. -->
-<!-- You can find the latest version of project at https://github.com/projectdiscovery/katana/releases/ -->
+<!-- You can find the latest version of project at https://github.com/wangsir01/katana/releases/ -->
 
 ### Current Behavior:
 <!-- A concise description of what you're experiencing. -->

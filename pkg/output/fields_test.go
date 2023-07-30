@@ -3,8 +3,8 @@ package output
 import (
 	"testing"
 
-	"github.com/projectdiscovery/katana/pkg/navigation"
 	"github.com/stretchr/testify/require"
+	"github.com/wangsir01/katana/pkg/navigation"
 )
 
 func TestValidateFieldNames(t *testing.T) {

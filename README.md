@@ -6,9 +6,9 @@
 <h4 align="center">A next-generation crawling and spidering framework</h4>
 
 <p align="center">
-<a href="https://goreportcard.com/report/github.com/projectdiscovery/katana"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/katana"></a>
-<a href="https://github.com/projectdiscovery/katana/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/projectdiscovery/katana/releases"><img src="https://img.shields.io/github/release/projectdiscovery/katana"></a>
+<a href="https://goreportcard.com/report/github.com/wangsir01/katana"><img src="https://goreportcard.com/badge/github.com/wangsir01/katana"></a>
+<a href="https://github.com/wangsir01/katana/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/wangsir01/katana/releases"><img src="https://img.shields.io/github/release/projectdiscovery/katana"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
@@ -40,10 +40,10 @@
 
 ## Installation
 
-katana requires **Go 1.18** to install successfully. To install, just run the below command or download pre-compiled binary from [release page](https://github.com/projectdiscovery/katana/releases).
+katana requires **Go 1.18** to install successfully. To install, just run the below command or download pre-compiled binary from [release page](https://github.com/wangsir01/katana/releases).
 
 ```console
-go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/wangsir01/katana/cmd/katana@latest
 ```
 
 **More options to install / run katana-**
@@ -92,7 +92,7 @@ sudo apt install google-chrome-stable
 
 
 ```sh
-go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/wangsir01/katana/cmd/katana@latest
 ```
 
 </details>
@@ -866,9 +866,9 @@ package main
 
 import (
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/katana/pkg/engine/standard"
-	"github.com/projectdiscovery/katana/pkg/output"
-	"github.com/projectdiscovery/katana/pkg/types"
+	"github.com/wangsir01/katana/pkg/engine/standard"
+	"github.com/wangsir01/katana/pkg/output"
+	"github.com/wangsir01/katana/pkg/types"
 )
 
 func main() {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/katana/internal/testutils"
+	"github.com/wangsir01/katana/internal/testutils"
 )
 
 var (

@@ -5,14 +5,14 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/fastdialer/fastdialer"
-	"github.com/projectdiscovery/katana/pkg/output"
-	"github.com/projectdiscovery/katana/pkg/utils/extensions"
-	"github.com/projectdiscovery/katana/pkg/utils/filters"
-	"github.com/projectdiscovery/katana/pkg/utils/scope"
 	"github.com/projectdiscovery/ratelimit"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	urlutil "github.com/projectdiscovery/utils/url"
 	wappalyzer "github.com/projectdiscovery/wappalyzergo"
+	"github.com/wangsir01/katana/pkg/output"
+	"github.com/wangsir01/katana/pkg/utils/extensions"
+	"github.com/wangsir01/katana/pkg/utils/filters"
+	"github.com/wangsir01/katana/pkg/utils/scope"
 )
 
 // CrawlerOptions contains helper utilities for the crawler

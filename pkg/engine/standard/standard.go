@@ -2,9 +2,9 @@ package standard
 
 import (
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/katana/pkg/engine/common"
-	"github.com/projectdiscovery/katana/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/wangsir01/katana/pkg/engine/common"
+	"github.com/wangsir01/katana/pkg/types"
 )
 
 // Crawler is a standard crawler instance
