@@ -20,12 +20,12 @@ var (
 //	Options types.Options
 //}
 
-func Run() {
+func Crawler(url string) {
 	//flagSet, err := readFlags()
 	//if err != nil {
 	//	gologger.Fatal().Msgf("Could not read flags: %s\n", err)
 	//}
-
+	Options.URLs = []string{url}
 	if Options.HealthCheck {
 		gologger.Fatal().Msgf("Options Failed to check\n")
 		os.Exit(0)
