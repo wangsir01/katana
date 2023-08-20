@@ -1,12 +1,16 @@
 package common
 
 import (
+	"context"
 	"crypto/tls"
+	"net"
 	"net/http"
 	"net/url"
 	"time"
 
 	"github.com/projectdiscovery/fastdialer/fastdialer"
+
+	"github.com/projectdiscovery/fastdialer/fastdialer/ja3/impersonate"
 	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	proxyutil "github.com/projectdiscovery/utils/proxy"
@@ -22,7 +26,13 @@ func BuildHttpClient(dialer *fastdialer.Dialer, options *types.Options, redirect
 	retryablehttpOptions := retryablehttp.DefaultOptionsSingle
 	retryablehttpOptions.RetryMax = options.Retries
 	transport := &http.Transport{
-		DialContext:         dialer.Dial,
+		DialContext: dialer.Dial,
+		DialTLSContext: func(ctx context.Context, network, addr string) (net.Conn, error) {
+			if options.TlsImpersonate {
+				return dialer.DialTLSWithConfigImpersonate(ctx, network, addr, &tls.Config{InsecureSkipVerify: true, MinVersion: tls.VersionTLS10}, impersonate.Random, nil)
+			}
+			return dialer.DialTLS(ctx, network, addr)
+		},
 		MaxIdleConns:        100,
 		MaxIdleConnsPerHost: 10,
 		MaxConnsPerHost:     100,
