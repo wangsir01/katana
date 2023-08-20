@@ -1,14 +1,13 @@
 package katana
 
 import (
+	"github.com/projectdiscovery/gologger"
+	"github.com/wangsir01/katana/internal/runner"
+	"github.com/wangsir01/katana/pkg/types"
 	"math"
 	"os"
 	"os/signal"
 	"syscall"
-
-	"github.com/projectdiscovery/gologger"
-	"github.com/wangsir01/katana/internal/runner"
-	"github.com/wangsir01/katana/pkg/types"
 )
 
 var (

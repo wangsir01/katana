@@ -63,6 +63,7 @@ require (
 	github.com/projectdiscovery/mapcidr v1.1.2 // indirect
 	github.com/refraction-networking/utls v1.3.2 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/sashabaranov/go-openai v1.14.1 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/smacker/go-tree-sitter v0.0.0-20220628134258-ac06e95cfa11 // indirect
@@ -135,4 +136,4 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/projectdiscovery/katana => github.com/wangsir01/katana@1.1
+replace github.com/projectdiscovery/katana => github.com/wangsir01/katana v0.0.0-20230820053612-71f76d0bddef
